@@ -13,6 +13,10 @@
 		B5924F431A93996200A47AB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5924F421A93996200A47AB8 /* Images.xcassets */; };
 		B5924F461A93996200A47AB8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5924F441A93996200A47AB8 /* LaunchScreen.xib */; };
 		B5924F521A93996200A47AB8 /* IOToastInputSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5924F511A93996200A47AB8 /* IOToastInputSwiftTests.swift */; };
+		B5924F5D1A939BCC00A47AB8 /* IOToastInputSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5924F5C1A939BCC00A47AB8 /* IOToastInputSwift.swift */; };
+		B5924F611A939C7000A47AB8 /* IOToastInputSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B5924F5E1A939C7000A47AB8 /* IOToastInputSwift.podspec */; };
+		B5924F621A939C7000A47AB8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5924F5F1A939C7000A47AB8 /* LICENSE */; };
+		B5924F631A939C7000A47AB8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B5924F601A939C7000A47AB8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		B5924F4B1A93996200A47AB8 /* IOToastInputSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOToastInputSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5924F501A93996200A47AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5924F511A93996200A47AB8 /* IOToastInputSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOToastInputSwiftTests.swift; sourceTree = "<group>"; };
+		B5924F5C1A939BCC00A47AB8 /* IOToastInputSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOToastInputSwift.swift; sourceTree = "<group>"; };
+		B5924F5E1A939C7000A47AB8 /* IOToastInputSwift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IOToastInputSwift.podspec; sourceTree = "<group>"; };
+		B5924F5F1A939C7000A47AB8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B5924F601A939C7000A47AB8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 		B5924F2D1A93996200A47AB8 = {
 			isa = PBXGroup;
 			children = (
+				B5924F5B1A93997000A47AB8 /* Metadata */,
 				B5924F381A93996200A47AB8 /* IOToastInputSwift */,
 				B5924F4E1A93996200A47AB8 /* IOToastInputSwiftTests */,
 				B5924F371A93996200A47AB8 /* Products */,
@@ -83,6 +92,7 @@
 				B5924F421A93996200A47AB8 /* Images.xcassets */,
 				B5924F441A93996200A47AB8 /* LaunchScreen.xib */,
 				B5924F391A93996200A47AB8 /* Supporting Files */,
+				B5924F5C1A939BCC00A47AB8 /* IOToastInputSwift.swift */,
 			);
 			path = IOToastInputSwift;
 			sourceTree = "<group>";
@@ -110,6 +120,16 @@
 				B5924F501A93996200A47AB8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5924F5B1A93997000A47AB8 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				B5924F5E1A939C7000A47AB8 /* IOToastInputSwift.podspec */,
+				B5924F5F1A939C7000A47AB8 /* LICENSE */,
+				B5924F601A939C7000A47AB8 /* README.md */,
+			);
+			name = Metadata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +213,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5924F411A93996200A47AB8 /* Main.storyboard in Resources */,
+				B5924F611A939C7000A47AB8 /* IOToastInputSwift.podspec in Resources */,
 				B5924F461A93996200A47AB8 /* LaunchScreen.xib in Resources */,
 				B5924F431A93996200A47AB8 /* Images.xcassets in Resources */,
+				B5924F621A939C7000A47AB8 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5924F5D1A939BCC00A47AB8 /* IOToastInputSwift.swift in Sources */,
 				B5924F3E1A93996200A47AB8 /* ViewController.swift in Sources */,
+				B5924F631A939C7000A47AB8 /* README.md in Sources */,
 				B5924F3C1A93996200A47AB8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
